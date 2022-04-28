@@ -1,0 +1,21 @@
+# user specific files
+*.user
+
+# build results
+**/bin/
+**/obj/
+
+# ide files
+.vs/
+.idea/
+*.sln.iml
+
+# dotnet
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts
+
+# nuget
+**/packages/
+*.nupkg
+*.snupkg

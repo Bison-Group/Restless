@@ -1,0 +1,16 @@
+# detect text files and perform lf normalization
+*           text=auto
+
+# specific settings for .net related files
+*.cs        text        diff=csharp
+*.sln       text        eol=crlf merge=union
+*.csproj    text        merge=union
+
+# general files
+*.md        text
+*.json      text
+
+
+# git files
+.gitattributes  text
+.gitignore      text
